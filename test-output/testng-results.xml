@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Total Optins 4]]>
+    </line>
+    <line>
+      <![CDATA[Text Settings & privacy]]>
+    </line>
+    <line>
+      <![CDATA[Text Help & support]]>
+    </line>
+    <line>
+      <![CDATA[Text Display preferences]]>
+    </line>
+    <line>
+      <![CDATA[Text Log Out]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10764" started-at="2021-01-19T13:01:02 IST" finished-at="2021-01-19T13:01:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10764" started-at="2021-01-19T13:01:02 IST" finished-at="2021-01-19T13:01:13 IST">
+      <class name="com_ActiTime_Tests.FBTest">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com_ActiTime_Tests.FBTest@1dfe2924]" name="precondition" is-config="true" duration-ms="7048" started-at="2021-01-19T13:01:02 IST" finished-at="2021-01-19T13:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="fBLogin()[pri:0, instance:com_ActiTime_Tests.FBTest@1dfe2924]" name="fBLogin" duration-ms="3608" started-at="2021-01-19T13:01:09 IST" finished-at="2021-01-19T13:01:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Total Optins 4]]>
+            </line>
+            <line>
+              <![CDATA[Text Settings & privacy]]>
+            </line>
+            <line>
+              <![CDATA[Text Help & support]]>
+            </line>
+            <line>
+              <![CDATA[Text Display preferences]]>
+            </line>
+            <line>
+              <![CDATA[Text Log Out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fBLogin -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com_ActiTime_Tests.FBTest@1dfe2924]" name="postcondition" is-config="true" duration-ms="67" started-at="2021-01-19T13:01:13 IST" finished-at="2021-01-19T13:01:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fBLogin status=SUCCESS method=FBTest.fBLogin()[pri:0, instance:com_ActiTime_Tests.FBTest@1dfe2924] output=Total Optins 4]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com_ActiTime_Tests.FBTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
